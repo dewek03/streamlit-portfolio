@@ -6,7 +6,7 @@ st.title("👋 Hello! I'm Derrick Estopace")
 
 st.header("📌 About Me")
 st.write("""
-Hi! I am a BSIT student passionate about software development and quality assurance.
+Hi! I am a BSIT student passionate about software development and cybersecurity.
 I enjoy learning Python, Django, and Web Development.
 """)
 
