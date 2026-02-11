@@ -1,14 +1,14 @@
 import streamlit as st
 from datetime import datetime
 
-# ------------------ PAGE CONFIG ------------------
+
 st.set_page_config(
     page_title="Derrick | Portfolio",
     page_icon="💼",
     layout="wide"
 )
 
-# ------------------ SIDEBAR ------------------
+
 st.sidebar.title("Navigation")
 section = st.sidebar.radio(
     "Go to:",
@@ -18,7 +18,7 @@ section = st.sidebar.radio(
 st.sidebar.markdown("---")
 st.sidebar.info("BSIT Student | CyberSecurity 🚀")
 
-# ------------------ HOME ------------------
+
 if section == "Home":
     st.title("👋 Hello, I'm Derrick")
     st.subheader("Welcome to My Professional Portfolio")
@@ -40,7 +40,7 @@ if section == "Home":
     st.metric("Projects Completed", "5+")
     st.metric("Technologies Learned", "8+")
 
-# ------------------ ABOUT ------------------
+
 elif section == "About Me":
     st.header("📌 About Me")
 
@@ -52,7 +52,7 @@ elif section == "About Me":
     st.progress(80)
     st.write("Continuous Learning Progress: 80% 🚀")
 
-# ------------------ SKILLS ------------------
+
 elif section == "Skills":
     st.header("💻 Technical Skills")
 
@@ -65,7 +65,7 @@ elif section == "Skills":
     st.write(f"Django Skill Level: {django_level}%")
     st.write(f"Software Testing Level: {testing_level}%")
 
-# ------------------ PROJECTS ------------------
+
 elif section == "Projects":
     st.header("📁 My Projects")
 
@@ -81,7 +81,6 @@ elif section == "Projects":
         st.write("Created test cases, test plans, and defect reports.")
         st.success("Status: Completed")
 
-# ------------------ CONTACT ------------------
 elif section == "Contact":
     st.header("📬 Contact Me")
 
@@ -93,10 +92,9 @@ elif section == "Contact":
         st.success("Message sent successfully! ✅")
         st.balloons()
 
-# ------------------ FOOTER ------------------
 st.markdown("---")
 st.caption(f"© {datetime.now().year} Derrick | Built with Streamlit")
-=======
+
 import streamlit as st
 
 st.set_page_config(page_title="My Autobiography", page_icon="👋", layout="centered")
