@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="My Autobiography", page_icon="👋", layout="centered")
 
-st.title("👋 Hello! I'm Derrick")
+st.title("👋 Hello! I'm Derrick Estopace")
 
 st.header("📌 About Me")
 st.write("""
@@ -12,7 +12,7 @@ I enjoy learning Python, Django, and Web Development.
 
 st.header("🎓 Education")
 st.write("- Bachelor of Science in Information Technology")
-st.write("- Interested in Software Testing & QA")
+st.write("- Interested in Software Testing & CyberSecurity")
 
 st.header("💻 Skills")
 st.write("✔ Python")
